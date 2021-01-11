@@ -6,7 +6,7 @@ Use cookies with JS.
 
 # DEMO
 
-![DEMO](https://ytyaru.github.io/JS.Cookie.20210111155803/)
+* [DEMO](https://ytyaru.github.io/JS.Cookie.20210111155803/)
 
 # Features
 

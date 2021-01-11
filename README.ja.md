@@ -6,7 +6,7 @@
 
 # デモ
 
-![デモ](https://ytyaru.github.io/JS.Cookie.20210111155803/)
+* [デモ](https://ytyaru.github.io/JS.Cookie.20210111155803/)
 
 # 特徴
 
