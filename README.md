@@ -6,11 +6,13 @@ Use cookies with JS.
 
 # DEMO
 
-![]()
+![DEMO](https://ytyaru.github.io/JS.Cookie.20210111155803/)
 
 # Features
 
-* sales point
+* used [js-cookie][]
+
+[js-cookie]:https://github.com/js-cookie/js-cookie
 
 # Requirement
 
@@ -41,7 +43,7 @@ git clone https://github.com/ytyaru/JS.Cookie.20210111155803
 
 # Note
 
-* important point
+* Cookies are not saved when executed locally with no domain `file: //`. If you upload to a place with a domain such as `http://domain.jp` and then execute it, the cookie will be saved. Because cookies are stored on a domain-by-domain basis.
 
 # Author
 

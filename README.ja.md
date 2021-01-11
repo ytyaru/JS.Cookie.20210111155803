@@ -6,11 +6,13 @@
 
 # デモ
 
-![]()
+![デモ](https://ytyaru.github.io/JS.Cookie.20210111155803/)
 
 # 特徴
 
-* セールスポイント
+* [js-cookie][]を使ってみた
+
+[js-cookie]:https://github.com/js-cookie/js-cookie
 
 # 開発環境
 
@@ -41,7 +43,7 @@ git clone https://github.com/ytyaru/JS.Cookie.20210111155803
 
 # 注意
 
-* 注意点など
+* ドメインがないローカル`file://`で実行してもCookieは保存されない。`http://domain.jp`などドメインがある場所へアップロードしてから実行すると、Cookieが保存される。Cookieはドメイン単位で保存される仕様のため。
 
 # 著者
 
