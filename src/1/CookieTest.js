@@ -21,7 +21,7 @@ export default class CookieTest {
     set() {
         const v = this.Value;
         if (undefined != v && v != this.VALUE) { // キーが存在し、かつ値が既存Cookie値と異なるなら保存する
-            Cookies.set(this.KEY, this.VALUE); // Cookies.set(KEY, VALUE, {expires: 1, path: ''}); // expires: 保存期間（日）、path: 有効にするパス
+            Cookies.set(this.KEY, this.VALUE, {expires: 7}); // Cookies.set(KEY, VALUE, {expires: 1, path: ''}); // expires: 保存期間（日）、path: 有効にするパス
             this.#logging('Set!!');
         }
         this.#logging(`Set the Cookie: ${this.KEY}=${this.VALUE}`);
